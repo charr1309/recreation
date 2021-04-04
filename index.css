@@ -94,20 +94,25 @@ html, body{
 
 }
 .wrapper{
-    display: grid;
+    display: flex;
     width: 100vw;
     height: 800px;
-    grid-template-columns: repeat (4,1fr);
+    /* grid-template-columns: repeat (4,1fr);
     grid-template-rows: repeat (3,1fr)
-    
-    justify-content: space-around;
+     */
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
 
 }
 .roasters{
     
-    height: 341px;
-    padding: 60px 0;
+    height: 247px;
+    padding: 60px;
+    width: 1300px;
+    height: 900px;
+    
     
     /* width: 100vw; */
      
