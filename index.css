@@ -17,25 +17,26 @@ html, body{
     height: 50px;
 }
 .nav-container{
+
     display: flex;
+    
     width: 100vw;
     height: 50px;
-    background: transparent;
+    
     justify-content: center;
 }
 .nav{
+    
     width: 1000px;
     display: flex;
     justify-content: space-around;
 }
 ul{
+    background-color: transparent;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    
-    
-    
-  
+   
 }
 li{
     flex: auto;
