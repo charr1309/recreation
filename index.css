@@ -53,8 +53,20 @@ background-image: url("images/headerImage.jpg");
     float: right;
 }
 .info{
+    display: flex;
+    height: 361px;
+    padding: 60px 0;
+    width: 100vw;
+    justify-content: space-around;
+    
 
 }
+.info div {
+    width: 340px;
+    height: 241px;
+    
+    text-align: center;
+}    
 .browse{
     
 }
