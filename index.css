@@ -70,6 +70,19 @@ background-image: url("images/headerImage.jpg");
 .browse{
     
 }
+.textPanel2{
+    background-color: white;
+    height: 615px;
+    width: 994px;
+    display: inline-block;
+    padding: 130px 130px 150px;
+    
+}
+.imagePanel2{
+    height: 615px;
+    width: 50%;
+    float: left;
+
 .deliver{
 
 }
