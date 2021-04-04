@@ -20,10 +20,37 @@ html, body{
 .jumbotron{
 background-image: url("images/headerImage.jpg");
 }
-.signUp{
+.awards{
     background-color: rgb(253, 59, 59);
     width: 100%;
     height: 250px;
+}
+/* .signUp{
+    width: 100%;
+    height: 615px;
+    background-color: blue;
+    flex-direction: row;
+    align-content: center;
+} */
+.textPanel{
+    background-color: white;
+    height: 615px;
+    width: 994px;
+    display: inline-block;
+    padding: 130px 130px 150px;
+    
+}
+.center{
+    text-align: center;
+}
+#coffee{
+    height: 615px;
+    width: 994px;
+}
+.imagePanel{
+    height: 615px;
+    width: 50%;
+    float: right;
 }
 .info{
 
