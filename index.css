@@ -18,7 +18,6 @@ html, body{
 
 }
 .jumbotron{
-background-image: url("images/headerImage.jpg");
 }
 .awards{
     background-color: rgb(253, 59, 59);
@@ -82,19 +81,49 @@ background-image: url("images/headerImage.jpg");
     height: 615px;
     width: 50%;
     float: left;
+}
 
 .deliver{
+    background-color: rgb(252, 213, 213);
+    width: 100%;
+    height: 250px;
 
 }
-.jumbo2{
+.jumbotron{
+    background-image: url("images/coffeeBagJumbo.png");
+
+}
+.wrapper{
+    display: grid;
+    width: 100vw;
+    height: 800px;
+    grid-template-columns: repeat (4,1fr);
+    grid-template-rows: repeat (3,1fr)
+    
+    justify-content: space-around;
+    
 
 }
 .roasters{
+    
+    height: 341px;
+    padding: 60px 0;
+    
+    /* width: 100vw; */
+     
 
 }
+
 .quiz{
+    background-color: rgb(253, 59, 59);
+    width: 100%;
+    height: 250px;
+    text-align: center;
 
 }
 .footer{
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height: 800px;
 
 }
