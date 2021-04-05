@@ -148,7 +148,12 @@ li{
     margin-bottom: 70px;
 }
 .jumbotron{
+    width: 100%;
+    height: 600px;
     background-image: url("images/coffeeBagJumbo.png");
+    background: cover;
+    text-align: center;
+    
 
 }
 .wrapper{
