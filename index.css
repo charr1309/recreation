@@ -12,7 +12,7 @@ html, body{
     padding: 0 0;
 }
 .topBorder{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(39, 39, 39);
     width: 100%;
     height: 50px;
 }
@@ -27,7 +27,7 @@ html, body{
 }
 .nav{
     
-    width: 1000px;
+    width: 1400px;
     display: flex;
     justify-content: space-around;
 }
@@ -36,30 +36,64 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
    
 }
 li{
     flex: auto;
-    
+    font-weight: bolder;
     height: 25px;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     
 }
-.jumbotron{
+.jumbotron-fluid{
+    width: 100vw;
+    height: 600px;
+    background-image: url(images/headerImage.png);
+    text-align: center;
 }
+ .container{
+    position: relative;
+    text-align: center;
+}
+/* .top{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.middle{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.lower{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.bottom{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.btn{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+} */
 .awards{
     background-color: rgb(253, 59, 59);
     width: 100%;
     height: 250px;
     text-align: center;
 }
-/* .signUp{
+ .signUp{
     width: 100%;
     height: 615px;
-    background-color: blue;
+    
     flex-direction: row;
     align-content: center;
-} */
+}  
 .textPanel{
     background-color: white;
     height: 615px;
@@ -70,7 +104,7 @@ li{
 }
 .center{
     text-align: center;
-}
+} 
 #coffee{
     height: 615px;
     width: 994px;
@@ -167,7 +201,10 @@ li{
 }
 .footer{
     display: flex;
-    background-color: rgb(59, 59, 59);
+    background-image: url(images/coffeeBottomGraphic.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: rgb(48,48,46);
     width: 100%;
     height: 800px;
     flex-direction: row;
