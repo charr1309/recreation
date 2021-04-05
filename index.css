@@ -50,37 +50,14 @@ li{
     width: 100vw;
     height: 600px;
     background-image: url(images/headerImage.png);
+    background: cover;
     text-align: center;
 }
  .container{
     position: relative;
     text-align: center;
 }
-/* .top{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.middle{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.lower{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.bottom{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.btn{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-} */
+
 .awards{
     background-color: rgb(253, 59, 59);
     width: 100%;
@@ -88,7 +65,7 @@ li{
     text-align: center;
 }
  .signUp{
-    width: 100%;
+    width: 100vw;
     height: 615px;
     
     flex-direction: row;
@@ -97,7 +74,7 @@ li{
 .textPanel{
     background-color: white;
     height: 615px;
-    width: 994px;
+    width: 50vw;
     display: inline-block;
     padding: 130px 130px 150px;
     
@@ -106,14 +83,18 @@ li{
     text-align: center;
 } 
 #coffee{
-    height: 615px;
+    height: 50%px;
     width: 994px;
-}
+} 
 .imagePanel{
-    height: 615px;
+    height: auto;
     width: 50%;
     float: right;
 }
+/* .imagePanel, img{
+    width: 100%;
+    float: right;
+} */
 .info{
     display: flex;
     height: 361px;
