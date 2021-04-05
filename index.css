@@ -166,8 +166,37 @@ li{
 
 }
 .footer{
+    display: flex;
     background-color: rgb(59, 59, 59);
     width: 100%;
     height: 800px;
-
+    flex-direction: row;
+    
 }
+.shop{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+    color: white;
+    flex-wrap: wrap;
+    
+    
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+    color: white;
+    flex-wrap: wrap;
+    float: right
+} 
+/* .company{
+    border: 3px solid black;
+    width: 400px;
+    height: 800px;
+    flex-wrap: wrap;
+    color: white;
+} */
+
