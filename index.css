@@ -122,7 +122,7 @@ li{
 .textPanel2{
     background-color: white;
     height: 615px;
-    width: 994px;
+    width: 50%;
     display: inline-block;
     padding: 130px 130px 150px;
     
@@ -131,6 +131,10 @@ li{
     height: 615px;
     width: 50%;
     float: left;
+}
+.responsive{
+    width: 50%;
+    height: auto;
 }
 
 .deliver{
